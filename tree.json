@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Adrian Douglas Barthaud",
+        "class": "man",
+        "marriages": [
+            {
+                "spouse": {
+                    "name": "Dawn Barthaud",
+                    "class": "woman"
+                },
+                "children": [
+                    {
+                        "name": "Lewis Adrian Barthaud",
+                        "class": "man",
+                        "marriages": [
+                            {
+                                "spouse": {
+                                    "name": "Kylie Matthews",
+                                    "class": "woman"
+                                },
+                                "children": [
+                                    {
+                                        "name": "Elara Avril Barthaud",
+                                        "class": "woman"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Daniel Charles Barthaud",
+                        "class": "man",
+                        "marriages": [
+                            {
+                                "spouse": {
+                                    "name": "Sonia Kate Barthaud",
+                                    "class": "woman"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Andriana Barthaud",
+                        "class": "woman"
+                    }
+                ]
+            }
+        ]
+    }
+]

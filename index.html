@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+
+
+<!-- https://github.com/ErikGartner/dTree -->
+
+<head>
+    <title>The Barthaud Family Tree</title>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-dtree@2.4.1/dist/dTree.min.js" type="text/javascript"
+        charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="tree.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="tree.css">
+
+</head>
+
+<body>
+    Welcome to the homepage of the Barthaud family tree.
+    Free name data is limited on the internet, but it seems as though there are fewer than 200 people with the surname.
+    The aim of this site is to map, as best as possible, the relationship between people who share the surname or those
+    with close ties to it.
+    It is intended to be inclusive, and if you feel like you should be on the tree then you can be added.
+    This isn't meant to serve as an exhaustive list, but here are some examples of individuals I'm happy to include:
+    <ul>
+        <li>Any adopted or fostered person.</li>
+        <li>Anyone who has married into the family or who parents a child of the family.</li>
+        <li>Any child of a parent who would belong on this tree.</li>
+    </ul>
+
+    If you would like to be included, have information about individuals who should be added, or would like your
+    information removed, please get in touch <a href="tree@barthaud.com">tree@barthaud.com</a>.
+
+    <div id="graph"></div>
+</body>
+
+<footer>
+    This family tree is implemented using <a href="https://github.com/ErikGartner/dTree">dTree</a>
+</footer>
+
+</html>
